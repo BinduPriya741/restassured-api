@@ -10,7 +10,7 @@ import io.restassured.response.Response;
 public class DeleteUserTest {
 
 	
-	@Test
+	@Test(description = "Verify Delete User API")
 	public void deleteUserTest() {
 	
 		

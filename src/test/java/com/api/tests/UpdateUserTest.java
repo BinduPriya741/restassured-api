@@ -16,7 +16,7 @@ public class UpdateUserTest {
 	
 	
 	
-	@Test
+	@Test(description = "Verify update user - Put API")
 	public void putUserTest() { 
 	UserService userService = new UserService();
 	UserRegistrationTest userRegistrationTest = new UserRegistrationTest();

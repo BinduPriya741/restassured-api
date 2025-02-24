@@ -16,7 +16,7 @@ public class UserRegistrationTest {
 
 	Response response = null;
 	
-	@Test(description = "User registration")
+	@Test(description = "Verify User registration API")
 	public void registerUserTest() {
 
 		response = userResistration();

@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 
 public class UserDetailsTest {
 	
-	@Test
+	@Test(description = "Verify get user API")
 	public void getUserDetailsByIdTest(){
 		
 	UserService userService = new UserService();
